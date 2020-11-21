@@ -1,10 +1,11 @@
 import React from "react";
 import "./Feed.css";
+import StoryReel from "./StoryReel";
 
 function Feed() {
   return (
     <div className="feed">
-      <h1>Feed here...</h1>
+      <StoryReel />
     </div>
   );
 }
